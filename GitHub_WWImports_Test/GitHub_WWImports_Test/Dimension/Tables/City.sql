@@ -13,7 +13,6 @@
     [Valid From]                 DATETIME2 (7)     NOT NULL,
     [Valid To]                   DATETIME2 (7)     NOT NULL,
     [Lineage Key]                INT               NOT NULL,
-    [Test] NCHAR(10) NULL, 
     CONSTRAINT [PK_Dimension_City] PRIMARY KEY CLUSTERED ([City Key] ASC)
 );
 
